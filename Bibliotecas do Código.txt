@@ -1,0 +1,13 @@
+As bibliotecas utilizadas no código são:
+
+Arduino.h: Esta é a biblioteca padrão do Arduino e fornece os principais recursos e definições necessários para desenvolver código para placas Arduino e compatíveis.
+
+WiFi.h: Esta biblioteca permite a conexão do ESP32 a redes Wi-Fi. Ela fornece as classes e funções necessárias para configurar e gerenciar a conexão Wi-Fi.
+
+PubSubClient.h: Esta biblioteca é usada para estabelecer comunicação MQTT (Message Queuing Telemetry Transport) com um servidor MQTT (também conhecido como broker). Ela permite que o ESP32 publique mensagens em tópicos MQTT e se inscreva para receber mensagens de tópicos específicos.
+
+IRremoteESP8266.h e IRsend.h: Essas bibliotecas são usadas para enviar sinais infravermelhos (IR). Elas fornecem funcionalidades para controlar dispositivos por meio de sinais IR.
+
+Base64.h: Esta biblioteca permite a codificação e decodificação de dados usando o esquema Base64. No entanto, no código fornecido, não parece estar sendo usada explicitamente.
+
+ArduinoJson.h: Esta biblioteca facilita a manipulação de dados JSON em dispositivos Arduino. Ela fornece funções para serializar e deserializar objetos JSON, permitindo que o ESP32 analise mensagens recebidas em formato JSON.
