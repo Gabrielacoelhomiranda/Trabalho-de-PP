@@ -46,11 +46,7 @@ Este projeto pode ser expandido para incluir mais funcionalidades, como a adiç�
 
 Autores:
 
-Beatriz Mayumi Maeda 
-Bianca Ferreira Freitas Torres 
-Gabriel Zuccolotto Alecrim
-Gabriela Coelho Miranda 
-Mariana de Paula Ivo 
+Beatriz Mayumi Maeda, Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo 
 
 
 Licença:
