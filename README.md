@@ -77,6 +77,23 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 ####  Função de conexão ao broker MQTT
+
+
+                                            void connectToMqtt() {
+                                              if (!client.connected()) {
+                                                String client_id = "esp32-client-" + String(WiFi.macAddress());
+                                              if (client.connect(client_id.c_str(), mqtt_username, mqtt_password)) {
+                                                Serial.println("MQTT broker connected");
+                                                client.subscribe(topic);
+                                              } else {
+                                              Serial.print("Failed to connect to MQTT. State: ");
+                                              Serial.println(client.state());
+                                              delay(2000);
+                                              }
+                                            }
+                                          }
+
+
 *  [Arq. Funções de Conexão MQTT.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873823/Arq.Funcoes.de.Conexao.MQTT.txt)
   
 #### Execução Principal do Looping
