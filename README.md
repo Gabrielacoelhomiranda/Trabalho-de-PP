@@ -21,15 +21,23 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 ## Instruções de uso:
 .................................................................................................
 
-### Código Principal- Emissor
+* ###  Código Principal- Emissor
 
+  * #### Biblioteca e Definição de Constantes
+  * #### Inicialização e conexão à rede WiFi- ESP32
+  * #### Função de conexão ao broker MQTT
+  * #### Execução Principal do Looping
+
+
+
+###  Código Principal- Emissor
 #### Biblioteca e Definição de Constantes
 
                                             #include <Arduino.h>
                                             #include <WiFi.h>
                                             #include <PubSubClient.h>
                                             #include <IRremoteESP8266.h>
-#include <IRsend.h>
+                                            #include <IRsend.h>
 #include <Base64.h>
 #include <ArduinoJson.h>
 
