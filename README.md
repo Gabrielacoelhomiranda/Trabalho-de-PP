@@ -94,15 +94,25 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
                                           }
 
 
-*  [Arq. Funções de Conexão MQTT.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873823/Arq.Funcoes.de.Conexao.MQTT.txt)
   
 #### Execução Principal do Looping
-* [Arq. Execução Loop.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873849/Arq.Execucao.Loop.txt)
+
+
+                                          void execucaoContinua() {
+                                            if (!client.connected()) {
+                                              connectToMqtt();
+                                            }
+                                            client.loop();
+                                          }
+
+
+
+
 
 
 ## VÍDEO DO PROJETO
 
-                                  https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/9d1490ed-c4ac-42ee-a108-ff42027ee98e
+
 
 
 ### Integrantes
