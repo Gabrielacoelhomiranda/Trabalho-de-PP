@@ -1,5 +1,4 @@
 
-https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/28586324-05ab-4ee4-b943-d6b8bf5d3848
 # Projeto de Controle Remoto MQTT com ESP32 e Home Assistant
 
 Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por infravermelho (IR) através de mensagens MQTT, com o servidor MQTT hospedado em um sistema operacional Home Assistant em uma Raspberry Pi 3. O ESP32 atua como um roteador em modo Access Point (AP), permitindo a conexão de outros dispositivos ESP32 que atuam como emissores IR. Os códigos infravermelho são armazenados e gerenciados pelo servidor Home Assistant.
@@ -113,9 +112,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 ## VÍDEO DO PROJETO
 
-https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/225f3bf5-d62c-4a15-b399-7ae0a44e9be0
-
-
+https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/28586324-05ab-4ee4-b943-d6b8bf5d3848
 
 ### Integrantes
 -Beatriz Mayumi Maeda, Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
