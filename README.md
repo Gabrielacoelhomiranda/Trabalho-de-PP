@@ -4,10 +4,10 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 ## Funcionalidades:
 
- - Assistant em uma Raspberry Pi 3.[FUNÇAO]
+ - Assistant em uma Raspberry Pi 3. Na raspberry foi instalado o sistema operacional home assistant (Linux) no qual hospedamos um servidor mqtt. Os comandos são enviados a partir de um serviço de publish mqtt acionados por uma interface feita no servidor, e recebidos pela ESP para serem enviados como comandos infraverrmelho. 
 - Conexão de dispositivos ESP32 ao servidor MQTT em modo Access Point (AP) para envio e recebimento de comandos IR.
 - Controle de dispositivos por infravermelho (como uma televisão) através de uma página web acessada via navegador em uma rede local.
-- Armazenamento dos códigos IR no servidor Home Assistan.
+- Armazenamento dos códigos IR(infravermelho) no servidor Home Assistan.
 
 ## Equipamentos necessários:
 
