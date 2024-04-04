@@ -34,3 +34,9 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
   
 #### Execução Principal do Looping
 * [Arq. Execução Loop.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873849/Arq.Execucao.Loop.txt)
+
+
+
+## INTEGRANTES
+-Beatriz Mayumi Maeda,Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda,Mariana de Paula Ivo.
+
