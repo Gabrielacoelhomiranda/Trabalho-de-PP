@@ -24,7 +24,28 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 ### Código Principal- Emissor
 
 #### Biblioteca e Definição de Constantes
-* [Arq. Biblioteca e Constantes.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873696/Arq.Biblioteca.e.Constantes.txt)
+
+                                            #include <Arduino.h>
+                                            #include <WiFi.h>
+                                            #include <PubSubClient.h>
+                                            #include <IRremoteESP8266.h>
+#include <IRsend.h>
+#include <Base64.h>
+#include <ArduinoJson.h>
+
+#define IR_LED_PIN 23
+
+const char* ssid = "alecrim";
+const char* password = "jafalei3vezes";
+const char* mqtt_broker = "192.168.15.9";
+const char* topic = "esp32/test";
+const char* mqtt_username = "dedin";
+const char* mqtt_password = "dedin123";
+const int mqtt_port = 1883;
+
+                         
+                         
+[Arq. Biblioteca e Constantes.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873696/Arq.Biblioteca.e.Constantes.txt)
 
 #### Inicialização e conexão à rede WiFi- ESP32
 * [Arq.ESP32.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873755/Arq.ESP32.txt)
@@ -38,7 +59,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 ## VÍDEO DO PROJETO
 
-https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/9d1490ed-c4ac-42ee-a108-ff42027ee98e
+                                  https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/9d1490ed-c4ac-42ee-a108-ff42027ee98e
 
 
 ### Integrantes
