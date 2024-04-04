@@ -37,6 +37,6 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 
-## INTEGRANTES
+### Integrantes
 -Beatriz Mayumi Maeda,Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda,Mariana de Paula Ivo.
 
