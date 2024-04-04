@@ -1,3 +1,2 @@
 # Biblioteca
-* [Bibliotecas do Código.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14851993/Bibliotecas.do.Codigo.txt)
-
+* [Biblioteca.txt](https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/files/14873593/Biblioteca.txt)
