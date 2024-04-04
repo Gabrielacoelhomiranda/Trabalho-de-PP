@@ -31,7 +31,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 ###  Código Principal- Emissor
-#### [Biblioteca e Definição de Constantes]
+#### (Biblioteca e Definição de Constantes)
 
                                             #include <Arduino.h>
                                             #include <WiFi.h>
