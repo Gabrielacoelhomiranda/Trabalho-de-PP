@@ -38,9 +38,12 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 ## VÍDEO DO PROJETO
 
-
+https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/9d1490ed-c4ac-42ee-a108-ff42027ee98e
 
 
 ### Integrantes
 -Beatriz Mayumi Maeda, Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
+
+
+
 
