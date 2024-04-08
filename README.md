@@ -30,7 +30,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 *[Função de conexão ao broker MQTT](#função-de-conexão-ao-broker-mqtt)*
 
-- *[Execução Principal do Looping](#execução-principal-do-looping)*
+#### - *[Execução Principal do Looping](#execução-principal-do-looping)*
 
 
 ## Biblioteca e Definição de Constantes
