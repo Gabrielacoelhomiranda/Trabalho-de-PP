@@ -33,14 +33,6 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 [Inicialização e conexão à rede WiFi- ESP32](#inicialização-e-conexão-à-rede-wifi--esp32)
 
-Aqui está o conteúdo da seção "Biblioteca e Definição de Constantes"...
-
-...
-
-Para mais detalhes, veja a seção Biblioteca e Definição de Constantes.
-
-
-
 
 
 ###  Código Principal- Emissor
@@ -126,7 +118,7 @@ Inicialização e conexão à rede WiFi- ESP32
 
 ## VÍDEO DO PROJETO
 
-https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/28586324-05ab-4ee4-b943-d6b8bf5d3848
+
 
 ### Integrantes
 -Beatriz Mayumi Maeda, Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
@@ -136,5 +128,4 @@ https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/2858632
 
 
 
-Uploading Video Trabalh.mp4…
 
