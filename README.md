@@ -112,6 +112,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 #Biblioteca e Definição de Constantes
+
 #Inicialização e conexão à rede WiFi- ESP32
 
 
