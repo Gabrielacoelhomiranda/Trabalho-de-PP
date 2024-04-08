@@ -24,13 +24,13 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 * ###  Código Principal- Emissor
 
-# *[Biblioteca e Definição de Constantes](#biblioteca-e-definição-de-constantes)*
+ - *[Biblioteca e Definição de Constantes](#biblioteca-e-definição-de-constantes)*
 
 *[Inicialização e conexão à rede WiFi-ESP32](#inicialização-e-conexão-à-rede-wifi-esp32)*
 
 *[Função de conexão ao broker MQTT](#função-de-conexão-ao-broker-mqtt)*
 
-# *[Execução Principal do Looping](#execução-principal-do-looping)*
+- *[Execução Principal do Looping](#execução-principal-do-looping)*
 
 
 ## Biblioteca e Definição de Constantes
