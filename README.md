@@ -32,7 +32,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 
-## Biblioteca e Definição de Constantes
+#### Biblioteca e Definição de Constantes
 
 
                                             #include <Arduino.h>
@@ -54,7 +54,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
                                             const int mqtt_port = 1883;
 
 
-## Inicialização e conexão à rede WiFi-ESP32
+#### Inicialização e conexão à rede WiFi-ESP32
 
 
                                             IRsend irsend(IR_LED_PIN);
@@ -79,7 +79,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
                                             }
 
 
-##  Função de conexão ao broker MQTT
+####  Função de conexão ao broker MQTT
 
 
                                             void connectToMqtt() {
@@ -98,7 +98,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
   
-## Execução Principal do Looping
+#### Execução Principal do Looping
 
 
                                           void execucaoContinua() {
@@ -112,7 +112,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 
-## VÍDEO DO PROJETO
+### VÍDEO DO PROJETO
 
 
 
