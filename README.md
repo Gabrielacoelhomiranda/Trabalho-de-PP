@@ -25,8 +25,10 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 * ###  Código Principal- Emissor
 
   * #### *[Biblioteca e Definição de Constantes](#biblioteca-e-definição-de-constantes)
+*[Inicialização e conexão à rede WiFi-ESP32](#inicialização-e-conexão-à-rede-wifi-esp32)*
 
-  * #### *[Inicialização e conexão à rede WiFi- ESP32](#inicialização-e-conexão-à-rede-wifi--esp32)
+
+ ( * #### *[Inicialização e conexão à rede WiFi- ESP32](#inicialização-e-conexão-à-rede-wifi--esp32))
   * #### *Função de conexão ao broker MQTT*
   * #### *Execução Principal do Looping*
 
@@ -52,7 +54,8 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
                                             const int mqtt_port = 1883;
 
 
-# Inicialização e conexão à rede WiFi- ESP32
+## Inicialização e conexão à rede WiFi-ESP32
+
 
                                             IRsend irsend(IR_LED_PIN);
                                             WiFiClient espClient;
