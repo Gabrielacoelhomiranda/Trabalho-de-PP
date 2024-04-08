@@ -31,7 +31,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
  
 [Biblioteca e Definição de Constantes](#biblioteca-e-definição-de-constantes)
 
-[Inicialização e conexão à rede WiFi- ESP32](inicialização-e-conexão-à-red-wifi-ESP32)
+[Inicialização e conexão à rede WiFi- ESP32](inicialização-e-conexão-à-rede-wifi-ESP32)
 
 Aqui está o conteúdo da seção "Biblioteca e Definição de Constantes"...
 
