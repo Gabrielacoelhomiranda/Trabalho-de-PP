@@ -27,9 +27,8 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
   * *[Inicialização e conexão à rede WiFi-ESP32](#inicialização-e-conexão-à-rede-wifi-esp32)*
   * *[Função de conexão ao broker MQTT](#função-de-conexão-ao-broker-mqtt)*
   * *[Execução Principal do Looping](#execução-principal-do-looping)*
-
-
-
+* ###  Vídeo
+  * *[Vídeo do projeto](#vídeo-do-projeto)*
 
 
 #### Biblioteca e Definição de Constantes
@@ -109,19 +108,13 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
                                           }
 
 
+#### Vídeo do projeto
 
-
-
-### Vídeo do projeto
+https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/f4c43e47-1d9d-4799-bc08-ec8fbe2a647c
 
 
 
 ### Integrantes
 -Beatriz Mayumi Maeda, Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
-
-
-
-
-
 
 
