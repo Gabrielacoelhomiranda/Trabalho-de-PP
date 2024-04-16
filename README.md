@@ -106,7 +106,7 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 
 
 #### Vídeo do projeto
-https://youtu.be/1QRLDS0QRvs
+- https://youtu.be/1QRLDS0QRvs
 
 
 
