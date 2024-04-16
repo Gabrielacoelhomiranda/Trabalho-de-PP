@@ -19,9 +19,6 @@ Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por in
 - Resistores para o LED IR (se necessário, dependendo do modelo).
 - Conexão com uma rede WiFi local. 
 
-## Instruções de uso:
-.................................................................................................
-
 * ###  Código Principal- Emissor
   * *[Biblioteca e Definição de Constantes](#biblioteca-e-definição-de-constantes)*
   * *[Inicialização e conexão à rede WiFi-ESP32](#inicialização-e-conexão-à-rede-wifi-esp32)*
