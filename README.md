@@ -111,7 +111,7 @@ https://github.com/Gabrielacoelhomiranda/Trabalho-de-PP/assets/165197045/76edaac
 
 
 ### Integrantes
--Beatriz Mayumi Maeda, Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
+- Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
 
 
 
