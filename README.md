@@ -1,23 +1,19 @@
 
 # Projeto de Controle Remoto MQTT com ESP32 e Home Assistant
 
-Este projeto demonstra como utilizar um ESP32 para controlar dispositivos por infravermelho (IR) através de mensagens MQTT, com o servidor MQTT hospedado em um sistema operacional Home Assistant em uma Raspberry Pi 3. O ESP32 atua como um roteador em modo Access Point (AP), permitindo a conexão de outros dispositivos ESP32 que atuam como emissores IR. Os códigos infravermelho são armazenados e gerenciados pelo servidor Home Assistant.
+Este projeto tem como objetivo administrar dispositivos que operam por meio de tecnologia infravermelha através de uma interface de usuário baseada em navegador, implementada em uma rede local.
 
 ## Funcionalidades:
 
- - Assistant em uma Raspberry Pi 3. Na raspberry foi instalado o sistema operacional home assistant (Linux) no qual hospedamos um servidor mqtt. Os comandos são enviados a partir de um serviço de publish mqtt acionados por uma interface feita no servidor, e recebidos pela ESP para serem enviados como comandos infraverrmelho. 
-- Conexão de dispositivos ESP32 ao servidor MQTT em modo Access Point (AP) para envio e recebimento de comandos IR.
-- Controle de dispositivos por infravermelho (como uma televisão) através de uma página web acessada via navegador em uma rede local.
-- Armazenamento dos códigos IR(infravermelho) no servidor Home Assistan.
+Uma ESP32 opera como um roteador no modo Access Point (AP), possibilitando que outros dispositivos ESP32 atuem como emissores e receptores de códigos IR (Infravermelho). Os códigos são armazenados e administrados pelo servidor Home Assistant, que está instalado em uma Raspberry Pi 3 com o sistema operacional Home Assistant (Linux). Este servidor também hospeda um servidor MQTT, por onde os comandos são enviados através de um serviço de publish MQTT, ativados por uma interface no servidor e recebidos pela ESP32, que os converte em comandos infravermelhos para comunicação entre os dispositivos.
 
 ## Equipamentos necessários:
 
-- ESP32 (pode ser um módulo como o NodeMCU-32S).
+- 3 ESP32 (pode ser um módulo como o NodeMCU-32S).
 - Raspberry Pi 3 (ou superior) com sistema operacional Home Assistant instalado.
-- Emissor IR (como o TSOP38238).
+- Receptor IR(como TSOP38238).
 - LED IR(infravermelho).
-- Resistores para o LED IR (se necessário, dependendo do modelo).
-- Conexão com uma rede WiFi local. 
+- Cabos jumpers. 
 
 * ###  Código Principal- Emissor
   * *[Biblioteca e Definição de Constantes](#biblioteca-e-definição-de-constantes)*
