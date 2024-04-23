@@ -1,18 +1,26 @@
 #include <WiFi.h>
 
-const char *ssid = "ppfinal";
-const char *password = "senha";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxxx";
 
 void setup() {
-  Serial.begin(115200);
-  // Configurando a ESP32 como um ponto de acesso
-  WiFi.softAP(ssid, password);
+	Serial.begin(115200);
+	Serial.println();
 
-  Serial.println("Ponto de acesso iniciado");
-  Serial.print("IP do AP: ");
-  Serial.println(WiFi.softAPIP());
+
+	WiFi.softAP(ssid, password);
+	IPAddress IP = WiFi.softAPIP();
+	Serial.print("AP IP address: ");
+	Serial.println(IP);
+
+
+	Serial.println("Configurações do ponto de acesso:");
+	Serial.print("SSID: ");
+	Serial.println(ssid);
+	Serial.print("Senha: ");
+	Serial.println(password);
 }
 
 void loop() {
-  // Aqui você pode adicionar o código para manipular as conexões
+
 }
