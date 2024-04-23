@@ -18,6 +18,7 @@ Uma ESP32 opera como um roteador no modo Access Point (AP), possibilitando que o
 * ###  Projeto
   * *[Código do Emissor](#código-do-emissor)*
   * *[Código do Roteador AP](#código-do-roteador-ap)*
+  * *[Código do Receptor](#código-do-receptor)*
 
 * ###  Vídeo
   * *[Vídeo do projeto](#vídeo-do-projeto)*
@@ -142,7 +143,48 @@ Uma ESP32 opera como um roteador no modo Access Point (AP), possibilitando que o
                                                         }
 
 
+#### Código do Receptor
 
+                                                        esphome:
+                                                         name: receptor_ir
+                                                         friendly_name: receptor_ir
+
+                                                        esp32:
+                                                         board: esp32dev
+                                                         framework:
+                                                          type: arduino
+
+
+                                                        logger:
+
+
+                                                        ota:# Enable Home Assistant API
+                                                         password: !secret ota_pwd
+
+                                                        wifi:
+                                                         ssid: "ppfinal"
+                                                         password: "xxxx"
+
+                                                         ap:# Enable fallback hotspot (captive portal) in case wifi connection fails
+                                                         ssid: "xxxxx"
+                                                         password: "xxxxx"
+
+                                                       captive_portal:
+
+                                                       remote_transmitter:
+                                                        - pin: GPIO23
+                                                        id: "D23"
+                                                        carrier_duty_percent: 50%
+
+                                                       api:
+                                                        password: !secret api_pwd
+
+                                                       remote_receiver:
+                                                        pin:
+                                                         inverted: True
+                                                         number: GPIO01
+                                                        dump: raw
+                                                        tolerance: 100%
 
 
 #### Vídeo do projeto
