@@ -2,7 +2,6 @@ TRABALHO DE PROGRAMAÇÃO PROCEDIMENTAL
 
 Integrantes do grupo:
 
-Beatriz Mayumi Maeda- Engenharia Biomédica
 Bianca Ferreira Freitas Torres - Engenharia Biomédica
 Gabriel Zuccolotto Alecrim - Engenharia de Controle e Automação
 Gabriela Coelho Miranda - Engenharia Biomédica
