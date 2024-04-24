@@ -1,40 +1,47 @@
+# Define o nome do projeto e um nome amigável
 esphome:
   name: receptor_ir
   friendly_name: receptor_ir
 
+# Configuração específica para o ESP32
 esp32:
   board: esp32dev
   framework:
     type: arduino
 
+# Ativação do logger para registro de eventos
 logger:
 
-# Enable Home Assistant API
+# Configuração para atualização OTA (Over-The-Air)
 ota:
+  # Senha para proteger a atualização OTA
   password: !secret ota_pwd
 
+# Configuração da rede Wi-Fi
 wifi:
-  ssid: "ppfinal"
-  password: "senha1234"
-
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ssid: "xxxx"        # Nome da rede Wi-Fi
+  password: "xxxx"  # Senha da rede Wi-Fi
   ap:
-    ssid: "receptor_ir"
-    password: "12345678"
+    ssid: "receptor_ir"  # Nome do ponto de acesso em caso de falha na conexão Wi-Fi
+    password: "xxxxx" # Senha do ponto de acesso em caso de falha na conexão Wi-Fi
 
+# Configuração para portal cativo (captive portal)
 captive_portal:
 
+# Configuração do transmissor remoto (IR)
 remote_transmitter:
-  - pin: GPIO23
-    id: "D23"
-    carrier_duty_percent: 50%
+  - pin: GPIO23              # Pino GPIO usado para transmissão
+    id: "D23"                # Identificador do transmissor
+    carrier_duty_percent: 50% # Percentual de trabalho do portador
 
+# Configuração da API para integração com Home Assistant
 api:
-  password: !secret api_pwd
+  password: !secret api_pwd  # Senha da API para comunicação com Home Assistant
 
+# Configuração do receptor remoto (IR)
 remote_receiver:
   pin:
-    inverted: True
-    number: GPIO01
-  dump: raw
-  tolerance: 100%
+    inverted: True           # Define se o sinal deve ser invertido
+    number: GPIO01          # Pino GPIO usado para recepção
+  dump: raw                 # Formato de saída dos dados recebidos (cru/raw)
+  tolerance: 100%         # Tolerância para coincidência de sinal (comentada para uso padrão)
