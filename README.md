@@ -190,7 +190,7 @@ Uma ESP32 opera como um roteador no modo Access Point (AP), possibilitando que o
                                                         tolerance: 100%
 
 
-#### Vídeo do projeto
+### Vídeo do projeto
 - https://youtu.be/1QRLDS0QRvs
 
 
