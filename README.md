@@ -27,7 +27,7 @@ Uma ESP32 opera como um roteador no modo Access Point (AP), possibilitando que o
   * *[Integrantes](#integrantes)*
   
 * ###  Bibliografia
-  * *[Bibliografia](#bibliografia)*
+  * *[Referências Bibliográficas](#referências-bibliográficas)*
 
 
 #### Código do Emissor
@@ -198,7 +198,7 @@ Uma ESP32 opera como um roteador no modo Access Point (AP), possibilitando que o
 ### Integrantes
 - Bianca Ferreira Freitas Torres, Gabriel Zuccolotto Alecrim, Gabriela Coelho Miranda, Mariana de Paula Ivo.
 
-### Bibliografia
+### Referências Bibliográficas
 
 * Receptor: https://esphome.io/components/remote_receiver.html
 * Emissor: https://github.com/crankyoldgit/IRremoteESP8266
